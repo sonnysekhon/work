@@ -1,0 +1,13 @@
+img {
+	border-radius: 25px;
+	/*position: relative;
+    clip: rect(5px,5px,5px,5px);*/
+}
+h1	{
+	text-shadow:2px 2px grey;
+}
+img:hover {
+	border: 2px solid #8AC007;
+	transform: rotate(180deg);
+	transition: transform 2s;
+}
